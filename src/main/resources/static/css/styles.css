@@ -18,17 +18,47 @@
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    overflow-y: scroll;
  }
 
+.massage {
+    margin-bottom: 10px;
+}
+
 .new-massage {
-    height: 90px;
+    height: 50px;
     background-color: white;
     border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-massage textarea {
+    width: 550px;
+    height: 100%;
+    border: 0;
+}
+
+.new-massage button {
+    background-color: blue;
+    color: white;
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .right {
-    width: 300px;
+    width: 400px;
     background-color: white;
     border-radius: 10px;
     margin-left: 10px;
+    padding: 10px;
+}
+
+.user-item {
+    margin-bottom: 10px;
 }
