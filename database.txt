@@ -1,7 +1,14 @@
-user
+user - пользователи
 
 - id INT NOT NULL AUTO_INCREMENT
 - reg_time DATETIME NOT NULL
 - session_id VARCHAR(255) NOT NULL
 - name VARCHAR(255) NOT NULL
+
+messages - сообщения
+
+- id INT NOT NULL AUTO INCREMENT
+- user_id INT NOT NULL
+- time DATETIME NOT NULL
+- massage TEXT NOT NULL
 
