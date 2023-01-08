@@ -1,6 +1,6 @@
 $(function(){
 
-    var userName = 'Юзер';
+    var userName = 'User';
 
     let initChat = function() {
         loadMessages();
@@ -10,7 +10,7 @@ $(function(){
     let loadUsers = function() {
         let usersList = $('.users-list');
         $.get('/api/users', function(response){
-            let users = response.messages;
+            let users = response.users;
             for(let i in users) {
                 let userItem = $('<div class="user-item"></div>');
                 userItem.text(users[i].name);
