@@ -1,4 +1,4 @@
-package main.module;
+package main.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -50,3 +50,22 @@ public class User {
         this.name = name;
     }
 }
+
+
+//@Entity
+//public class Massage {
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    private int id;
+//
+//    private int user_id;
+//
+//    private Date Time;
+//
+//    private String Text;
+//
+////    - id INT NOT NULL AUTO INCREMENT
+////    - user_id INT NOT NULL
+////    - time DATETIME NOT NULL
+////    - massage TEXT NOT NULL
+//}
