@@ -1,8 +1,8 @@
 package main.response;
 
 public class AuthResponse {
-
     private boolean result;
+    private String name;
 
     public boolean isResult() {
         return result;
@@ -19,6 +19,4 @@ public class AuthResponse {
     public void setName(String name) {
         this.name = name;
     }
-
-    private String name;
 }

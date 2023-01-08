@@ -1,7 +1,5 @@
 package main.response;
 
-import java.util.Date;
-
 public class AddMessageResponse {
     private boolean result;
     private String time;
@@ -14,12 +12,11 @@ public class AddMessageResponse {
         this.result = result;
     }
 
-    public String  getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(String  time) {
+    public void setTime(String time) {
         this.time = time;
     }
-
 }

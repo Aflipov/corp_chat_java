@@ -1,32 +1,31 @@
 .main {
     width: 1000px;
     height: 600px;
-    background-color: gainsboro;
+    background-color: #edecea;
     border-radius: 10px;
     padding: 15px;
     display: flex;
     align-items: stretch;
-    justify-content: stretch;
 }
 
 .left {
     width: 100%;
 }
 
-.massages-list {
-    height: 500px;
+.messages-list {
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10px;
+    height: 500px;
     padding: 10px;
     overflow-y: scroll;
- }
+}
 
-.massage {
+.message {
     margin-bottom: 10px;
 }
 
-.new-massage {
+.new-message {
     height: 50px;
     background-color: white;
     border-radius: 10px;
@@ -36,13 +35,13 @@
     align-items: center;
 }
 
-.new-massage textarea {
-    width: 550px;
-    height: 100%;
+.new-message textarea {
     border: 0;
+    width: 500px;
+    height: 100%;
 }
 
-.new-massage button {
+.new-message button {
     background-color: blue;
     color: white;
     padding: 15px 45px;
