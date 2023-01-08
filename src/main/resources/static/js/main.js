@@ -4,13 +4,13 @@ $(function(){
 
     let initChat = function() {
         loadMessages();
-        //loadUsers();
+        loadUsers();
     };
 
     let loadUsers = function() {
+        let usersList = $('.users-list');
         $.get('/api/users', function(response){
-            let users = response.users;
-            let usersList = $('.users-list');
+            let users = response.messages;
             for(let i in users) {
                 let userItem = $('<div class="user-item"></div>');
                 userItem.text(users[i].name);

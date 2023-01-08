@@ -8,6 +8,7 @@ public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
     private Date sendTime;
     @Column(columnDefinition="TEXT")
     private String text;
